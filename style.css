@@ -1,0 +1,113 @@
+.main{
+  background-color: #ddd;
+  border:1px solid skyblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  background-colour: #fff;
+  border: 2px solid blue;
+  border-radius: 10%;
+  font-size: 20px;
+  text-align: center;
+  background-color: pink;
+  font-style: italic;
+
+}
+.profile img{
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.content{
+  padding: 2%;
+  margin: 2%;
+  width: 65%;
+  background-color: skyblue;
+  border: 2px solid blue;
+  border-radius: 10%;
+  font-style: oblique;
+}
+
+@media only screen and (max-width: 480px){
+  .main{
+    background-color: #ddd;
+    border:1px solid skyblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .profile{
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    background-colour: #fff;
+    border: 2px solid blue;
+    border-radius: 10%;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .profile img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content{
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid blue;
+    border-radius: 10%;
+  }
+}
+
+@media only screen and (min-width:780px) and (max-width:1024px){
+  .main{
+    background-color: #ddd;
+    border:1px solid skyblue;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile{
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+    background-colour: #fff;
+    border: 2px solid blue;
+    border-radius: 10%;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .profile img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content{
+    padding: 2%;
+    margin: 2%;
+    width: 65%;
+    background-color: #fff;
+    border: 2px solid blue;
+    border-radius: 10%;
+  }
+}
